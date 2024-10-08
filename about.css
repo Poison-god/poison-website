@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+
+
+header {
+    background-color: #333;
+    padding: 20px 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+}
+
+header nav .logo h1 {
+    font-size: 24px;
+    color: white;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+/* General section styling */
+.about-us {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header styles */
+.about-us h2 {
+    font-size: 36px;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Paragraph styles */
+.about-us p {
+    font-size: 18px;
+    color: #34495e;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* Strong text for emphasis */
+.about-us p strong {
+    color: #2980b9;
+    font-weight: bold;
+}
+
+/* Add some extra spacing for the last paragraph */
+.about-us p:last-child {
+    margin-bottom: 0;
+}
+
+/* Media query for responsive design */
+@media screen and (max-width: 768px) {
+    .about-us {
+        padding: 30px 20px;
+    }
+
+    .about-us h2 {
+        font-size: 28px;
+    }
+
+    .about-us p {
+        font-size: 16px;
+    }
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 480px) {
+    .about-us {
+        padding: 20px 15px;
+    }
+
+    .about-us h2 {
+        font-size: 24px;
+    }
+
+    .about-us p {
+        font-size: 14px;
+    }
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
